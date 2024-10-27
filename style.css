@@ -8,13 +8,10 @@
 }
 
 body {
-    height: 100%;
-    background-size: cover;
-    background-position: unset;
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(wallpaper.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(wallpaper.jpg);
 }
 
-header {        
+header {
     z-index: 999;
     position: fixed;
     width: 100%;
@@ -82,15 +79,17 @@ header, nav-bar {
 }
 
 .navigation .nav-items a:not(:last-child) {
-    margin-right: 50px;
+    margin-right: 20px;
+    margin-right: 9px;
 }
 
 section {
     position: relative;
     font-size: 1em;
-    padding: 30px 150px;
+    padding: 30px 120px;
     transition: 0.5s ease;
     transition-property: padding;
+    background-position: center;
 }
 
 .content h1 {
@@ -142,8 +141,8 @@ section {
     color: #fff;
     font-size: 1.8em;
     font-weight: 600;
-    letter-spacing: 2px;
+    letter-spacing: 9px;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 0 0px;
+    padding: 0 60px;
 }
